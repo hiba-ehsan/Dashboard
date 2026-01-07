@@ -1,1 +1,1 @@
-# Hotel Revenue Management Dashboard (Streamlit)
+# Airbnb Pricing Dashboard (Streamlit)
