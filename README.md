@@ -1,1 +1,1 @@
-# Dashboard
+# Hotel Revenue Management Dashboard (Streamlit)
