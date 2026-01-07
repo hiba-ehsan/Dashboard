@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Purple Theme (Used some external resources for this since I'm not that well-versed in CSS)
+# Purple Theme (Used AI for this since I'm not good at CSS)
 st.markdown("""
 <style>
     /* Main background */
@@ -248,5 +248,3 @@ if df is not None and not df.empty:
         st.dataframe(df.head(10), use_container_width=True)
 else:
     st.warning("⚠️ No data loaded. Please check your data source or upload a CSV file.")
-
-
