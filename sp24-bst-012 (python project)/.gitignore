@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# pytest
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+build/
+
+# jupyter
+.ipynb_checkpoints/
+
+# Sensitive
+.env
+
+# Uncomment to ignore data folder if you prefer not to include datasets
+# data/
