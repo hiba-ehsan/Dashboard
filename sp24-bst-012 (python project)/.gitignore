@@ -1,35 +1,43 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyc
-*.pyo
-*.pyd
-.venv/
+*$py.class
+*.so
+.Python
 venv/
 env/
-
-# VSCode
-.vscode/
+ENV/
+.venv
 
 # Streamlit
 .streamlit/
 
-# pytest
-.pytest_cache/
+# Data files (keep structure, ignore large files)
+data/*.csv
+!data/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# build
-dist/
-build/
+# Logs
+*.log
 
-# jupyter
-.ipynb_checkpoints/
+# Database credentials (if stored locally)
+config.ini
+secrets.yaml
 
-# Sensitive
-.env
 
-# Uncomment to ignore data folder if you prefer not to include datasets
-# data/
+
+
