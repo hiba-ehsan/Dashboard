@@ -9,8 +9,9 @@ env/
 ENV/
 .venv
 
-# Streamlit
-.streamlit/
+# Streamlit (ignore secrets only)
+# Keep non-sensitive Streamlit configs like config.toml tracked for deployment
+.streamlit/secrets.toml
 
 # Data files (keep structure, ignore large files)
 data/*.csv
